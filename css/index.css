@@ -134,3 +134,61 @@ button:hover{
 .artist img{
     width:100%;
 }
+ /* START OF MEDIA QUERY*/
+ @media (max-width: 500px){
+     * {
+         border: solid 1px red;
+     }
+  
+    a {	
+        font-size: 2rem;
+    }	
+  	
+     
+    nav a{
+        color:#626262;
+    }
+    nav span{
+        border-left:1px solid #626262;
+        margin-left: 10%;
+        margin-right: 10%;
+    
+    }
+    /*Title Section Styles*/
+    .title-container{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .title-container div {	
+        width:92%;
+    }	
+
+    /*Artists Section Styles */
+    .artists-container{
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width:80%;
+        margin:0 auto;
+    }
+    
+    .artist{
+        width:80%;
+        text-align:center;
+    }
+    .artist img{
+        width:100%;
+        height: auto;
+    }
+    .artist div.bio {
+        font-size: 1.2rem;
+    }
+   
+
+
+
+
+
+
+ }  /* MEDIA QUERY CLOSING BRACKET DO NOT DELETE*/
