@@ -136,10 +136,7 @@ button:hover{
 }
  /* START OF MEDIA QUERY*/
  @media (max-width: 500px){
-     * {
-         border: solid 1px red;
-     }
-  
+ 
     a {	
         font-size: 2rem;
     }	
@@ -161,7 +158,7 @@ button:hover{
         justify-content: center;
     }
     .title-container div {	
-        width:92%;
+        width:95%;
     }	
 
     /*Artists Section Styles */
